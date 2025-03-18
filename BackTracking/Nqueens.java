@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Nqueens {
     static int []x;
     public static boolean Place(int k,int i)
