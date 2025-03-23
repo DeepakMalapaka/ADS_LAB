@@ -49,7 +49,7 @@ public class DFSAdjList {
         }
         System.out.println("Enter the starting vertex:");
         int start=sc.nextInt();
-        graph.BFS(start);
+        graph.DFS(start);
         sc.close();
         System.out.println("This is your graph traversal using the BFS Adjacency List!");
     }
