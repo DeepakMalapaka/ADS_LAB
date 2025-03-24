@@ -26,7 +26,7 @@ public class FractionalKnapsack {
                 m-=item.weight;
             }
             else{
-                double fraction=(double) m/item.profit;
+                double fraction=(double) m/item.weight;
                 maxp+=fraction*item.profit;
                 System.out.println("item weight:"+item.weight*fraction+ "item profit :"+item.profit*fraction+"- taken"+fraction*100+"%");
                 break;
