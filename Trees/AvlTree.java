@@ -34,7 +34,7 @@ public class AvlTree
         k2.left=k1;
         k1.height=Math.max(height(k1.left),height(k1.right))+1;
         k2.height=Math.max(height(k2.left),height(k2.right))+1;
-        return k1;
+        return k2;
     }
     public static AvlNode LR(AvlNode k3)
     {
